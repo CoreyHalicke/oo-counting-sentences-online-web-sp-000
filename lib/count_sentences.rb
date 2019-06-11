@@ -15,7 +15,7 @@ class String
   end
 
   def count_sentences
-    string.strip.split(/\w[?!.]/).length
+    array = string.strip.split(/\w[?!.]/).length
     if array == 0
       return "zero"
     else array.count
