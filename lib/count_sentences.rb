@@ -15,8 +15,11 @@ class String
   end
 
   def count_sentences
-
     array = self.split(".")
     array.count
+    if array == 0
+      return "zero"
+    else array.count
+    end
   end
 end
