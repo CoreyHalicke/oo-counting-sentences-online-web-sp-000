@@ -13,8 +13,6 @@ class String
   def exclamation?
     self.end_with?("!")
   end
-  
-    array = []
 
   def count_sentences
 
