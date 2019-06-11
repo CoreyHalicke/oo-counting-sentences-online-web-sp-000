@@ -15,6 +15,6 @@ class String
   end
 
   def count_sentences
-    puts string.strip.split(/\w[?!.]/).length
+    puts self.strip.split(/\w[?!.]/).length
   end
 end
